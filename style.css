@@ -68,7 +68,7 @@ ul {
     flex-basis: 30rem;
 }
 
-button {
+a {
     font-size: 2rem;
     color: #ffffff;
     background-color: var(--mainblue);
@@ -76,10 +76,6 @@ button {
     padding: 1rem;
     border-radius: 15px;
     border: .25rem solid red;
-
-    &:hover {
-        cursor:pointer
-    }
 }
 
 h3 {

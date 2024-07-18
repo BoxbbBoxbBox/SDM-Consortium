@@ -11,6 +11,30 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+.navbar {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row-reverse;
+ justify-content: space-evenly;
+ gap: 2rem;
+ background-color: black;
+ color: white;
+ list-style: none;
+ padding: .5rem;
+ margin: 1rem 0;
+}
+
+.navbar_link {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#google_translate_element {
+    max-width: 3rem;
+    order: 1000;
+    margin-right: 9rem;
+}
+
 img {
     width: 100%;
 }
@@ -29,6 +53,10 @@ p {
     padding: 1vw 5vw;
 }
 
+dfn {
+    font-style: normal;
+}
+
 h2 {
     text-align: center;
     color: #ffffff;
@@ -40,7 +68,7 @@ h2 {
     margin-bottom: 0;
 }
 
-ul {
+.principles_list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -68,7 +96,7 @@ ul {
     flex-basis: 30rem;
 }
 
-a {
+.link {
     font-size: 2rem;
     color: #ffffff;
     background-color: var(--mainblue);

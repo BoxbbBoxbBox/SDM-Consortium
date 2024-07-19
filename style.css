@@ -124,6 +124,14 @@ h2 {
     padding: 1rem;
     border-radius: 15px;
     border: .25rem solid red;
+    -webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    transition-property: background-color .4s;
+}
+
+.link:hover {
+    background-color: var(--maingreen);
 }
 
 h3 {

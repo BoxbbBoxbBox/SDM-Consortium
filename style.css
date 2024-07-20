@@ -11,6 +11,14 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+}
+
 .navbar {
  display: flex;
  flex-wrap: wrap;
@@ -127,6 +135,7 @@ h2 {
     -webkit-transition: background-color .4s;
     -moz-transition: background-color .4s;
     -o-transition: background-color .4s;
+    transition: background-color .4s;
     transition-property: background-color .4s;
 }
 

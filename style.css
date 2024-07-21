@@ -90,6 +90,7 @@ h2 {
     color: #ffffff;
     background-color: var(--maingreen);
     padding: 2rem 0;
+    margin: 0 5rem;
 }
 
 .principles {
@@ -120,12 +121,12 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem 0;
+    margin: .6rem 0;
     flex-basis: 30rem;
 }
 
 .link {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
     background-color: var(--mainblue);
     text-align: center;
@@ -191,6 +192,9 @@ h3 {
 .large_text {
     font-size: 1.3rem;
     text-align: center;
+    max-width: 55ch;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex_container {

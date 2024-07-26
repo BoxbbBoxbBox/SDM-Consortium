@@ -82,6 +82,7 @@ h1 {
     margin-bottom: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
+    gap: 1rem;
 }
 
 .overlay {
@@ -120,7 +121,6 @@ h2 {
     color: #ffffff;
     background-color: var(--maingreen);
     padding: 2rem 0;
-    margin: 0 5rem;
 }
 
 .flex_what_container {
@@ -234,11 +234,21 @@ h3 {
     align-items: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .about_container {
         grid-template-columns: 1fr; }
     .flex_what_container {
         flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        margin: 0 12vw;
+    }
+    .navbar {
+        margin-left: -12vw;
+        margin-right: -12vw;
     }
 }
 

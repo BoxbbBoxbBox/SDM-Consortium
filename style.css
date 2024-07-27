@@ -82,10 +82,10 @@ h1 {
     margin-bottom: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
-    gap: 1rem;
+    
 }
 
-.overlay {
+.hero {
     background-color: rgba(25,32,80,1);
     padding: .8rem;
     color: white;
@@ -94,17 +94,14 @@ h1 {
     text-align: center;
 }
 
-.overlay_container {
+.hero_container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    gap: 2.5rem;
-}
-
-.overlay_paragraph {
-    font-size: 2.5rem;
-    text-align: center;
+    gap: 1.5rem;
+    height: 100%;
+    margin-bottom: .4rem;
 }
 
 p {
@@ -236,7 +233,8 @@ h3 {
 
 @media only screen and (max-width: 900px) {
     .about_container {
-        grid-template-columns: 1fr; }
+        grid-template-columns: 1fr; 
+    }
     .flex_what_container {
         flex-wrap: wrap;
     }

@@ -46,10 +46,15 @@ body {
     color: white;
     padding: .5rem;
     border-radius: 1rem;
+    -webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    transition: background-color .4s;
+    transition-property: background-color .4s;
 }
 
 .navbar_link:hover {
-    background-color: var(--lightgreen)
+    background-color: var(--logogreen)
 }
 
 #google_translate_element {

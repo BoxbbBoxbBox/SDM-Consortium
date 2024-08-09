@@ -1,7 +1,8 @@
 :root {
 --mainblue: #2e68b2;
 --deepblue: #192050;
---maingreen: #3bb54a;
+--maingreen: #2C8736;
+--logogreen: #3bb54a;
 --lightgreen: #87c441;
 }
 
@@ -188,7 +189,7 @@ h2 {
 }
 
 .link:hover {
-    background-color: var(--maingreen);
+    background-color: var(--logogreen);
 }
 
 h3 {
